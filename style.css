@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-style: solid;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-style: solid;
+  }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-style: solid;
+  }
