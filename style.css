@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     background-color: Plum;
+    margin: auto;
   }
 
 .header {
@@ -11,6 +12,7 @@
     outline-style: solid;
     background-color: White;
     max-width: 50%;
+    margin: auto;
 }
 
 .nav-bar {
@@ -20,6 +22,7 @@
     outline-style: solid;
     background-color: Gainsboro;
     max-width: 50%;
+    margin: auto;
   }
 
 .content {
@@ -29,4 +32,5 @@
     outline-style: solid;
     background-color: White;
     max-width: 50%;
+    margin: auto;
   }
