@@ -1,10 +1,11 @@
 .bg {
-    background-color: Gainsboro;
+    display: flex;
+    background-color: MediumOrchid;
   }
 
 .header {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
     outline-style: solid;
     background-color: White;
@@ -13,16 +14,16 @@
 
 .nav-bar {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
     outline-style: solid;
-    background-color: MediumOrchid;
+    background-color: Gainsboro;
     max-width: 50%;
   }
 
 .content {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
     outline-style: solid;
     background-color: White;
