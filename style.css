@@ -5,6 +5,13 @@
     margin: auto;
   }
 
+  .colomun {
+    display: flex;
+    align-items: center;
+    background-color: Plum;
+    margin: auto;
+  }
+
 .header {
     display: flex;
     align-self: center;
