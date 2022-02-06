@@ -5,7 +5,16 @@
     margin: auto;
   }
 
-  .colomun {
+.description {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    outline-style: dotted;
+    background-color: White;
+    max-width: 50%;
+    margin: auto;
+}
+ .column {
     display: flex;
     align-items: center;
     background-color: Plum;
