@@ -12,7 +12,9 @@
   outline-style: solid;
   padding-top: calc(540 / 960 * 100%);
 }
-
+.row{
+  padding-top: calc(540 / 960 * 100%);
+}
 .description {
     display: flex;
     align-self: center;
