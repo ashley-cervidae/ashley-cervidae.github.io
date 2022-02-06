@@ -9,8 +9,8 @@
   display: flex;
   align-self: center;
   justify-content: center;
-  padding: 50%;
   outline-style: solid;
+  padding-top: calc(540 / 960 * 100%);
 }
 
 .description {
