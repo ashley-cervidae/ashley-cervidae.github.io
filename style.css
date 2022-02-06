@@ -3,6 +3,7 @@
     align-items: center;
     background-color: Plum;
     margin: auto;
+
   }
 
 .description {
@@ -25,7 +26,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    outline-style: solid;
+    outline-style: dotted;
     background-color: White;
     max-width: 50%;
     margin: auto;
@@ -35,7 +36,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    outline-style: solid;
+    outline-style: dotted;
     background-color: Gainsboro;
     max-width: 50%;
     margin: auto;
@@ -45,7 +46,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    outline-style: solid;
+    outline-style: dotted;
     background-color: White;
     max-width: 50%;
     margin: auto;
