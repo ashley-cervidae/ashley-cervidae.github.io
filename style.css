@@ -5,6 +5,13 @@
     margin: auto;
 
   }
+.thumbnail-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 50%;
+  outline-style: solid;
+}
 
 .description {
     display: flex;
