@@ -52,7 +52,7 @@
 .content {
     display: flex;
     align-self: center;
-    justify-content: center;
+
     outline-style: dotted;
     background-color: White;
     margin: auto;
