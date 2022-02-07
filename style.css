@@ -1,13 +1,16 @@
 .container {
     display: flex;
     background-color: Plum;
+    align-self: center;
+    justify-content: center;
+    outline-style: solid;
   }
 .thumbnail-container {
   display: flex;
   align-self: center;
   justify-content: center;
   outline-style: solid;
-  padding-top: calc(270/ 480 * 100%);
+  padding: calc(270/ 480 * 100%);
   margin: auto;
 }
 .row{
@@ -52,7 +55,7 @@
 .content {
     display: flex;
     align-self: center;
-
+    justify-content: center;
     outline-style: dotted;
     background-color: White;
     margin: auto;
