@@ -13,7 +13,7 @@
   padding-top: calc(540 / 960 * 100%);
 }
 .row{
-  padding-top: calc(540 / 960 * 100%);
+  padding: 90%;
 }
 .description {
     display: flex;
