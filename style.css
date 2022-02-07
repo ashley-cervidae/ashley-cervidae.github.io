@@ -10,10 +10,10 @@
   align-self: center;
   justify-content: center;
   outline-style: solid;
-  padding-top: calc(540 / 960 * 100%);
+  padding-top: calc(270/ 480 * 100%);
 }
 .row{
-  padding: 90%;
+  padding-top: calc(270/ 480 * 100%);
 }
 .description {
     display: flex;
