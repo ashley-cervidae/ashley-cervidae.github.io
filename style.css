@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background-color: Plum;
-    margin: auto;
+
 
   }
 .thumbnail-container {
@@ -11,6 +11,7 @@
   justify-content: center;
   outline-style: solid;
   padding-top: calc(270/ 480 * 100%);
+  margin: auto;
 }
 .row{
   padding-top: calc(270/ 480 * 100%);
