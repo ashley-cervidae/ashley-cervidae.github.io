@@ -22,7 +22,7 @@
     justify-content: center;
     outline-style: dotted;
     background-color: White;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
 }
  .column {
@@ -38,7 +38,7 @@
     justify-content: center;
     outline-style: dotted;
     background-color: White;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -48,7 +48,7 @@
     justify-content: center;
     outline-style: dotted;
     background-color: Gainsboro;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
   }
 
@@ -59,4 +59,5 @@
     outline-style: dotted;
     background-color: White;
     margin: auto;
+    max-width: 70%;
   }
