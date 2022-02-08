@@ -13,6 +13,7 @@
   outline-style: solid;
   aspect-ratio: 16/9;
   margin: auto;
+  padding: 50%;
 }
 .row{
   margin-bottom: 25%;
@@ -24,8 +25,8 @@
     justify-content: center;
     outline-style: dotted;
     background-color: White;
-    max-width: 70%;
-    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
 }
  .column {
     display: flex;
@@ -41,8 +42,10 @@
     justify-content: center;
     outline-style: dotted;
     background-color: White;
-    max-width: 70%;
-    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .nav-bar {
@@ -51,8 +54,10 @@
     justify-content: center;
     outline-style: dotted;
     background-color: Gainsboro;
-    max-width: 70%;
-    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
 .content {
@@ -63,6 +68,5 @@
     background-color: White;
     margin-left: 15%;
     margin-right: 15%;
-    max-width: 70%;
     min-height: 60%;
   }
