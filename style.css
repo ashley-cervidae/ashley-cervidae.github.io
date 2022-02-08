@@ -13,7 +13,6 @@
   outline-style: solid;
   aspect-ratio: 16/9;
   margin: auto;
-  padding: 50%;
 }
 .row{
   margin-bottom: 25%;
@@ -44,8 +43,6 @@
     background-color: White;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .nav-bar {
@@ -56,8 +53,6 @@
     background-color: Gainsboro;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 5%;
   }
 
 .content {
@@ -69,4 +64,8 @@
     margin-left: 15%;
     margin-right: 15%;
     min-height: 60%;
+  }
+
+  .h4{
+    padding: 50%;
   }
