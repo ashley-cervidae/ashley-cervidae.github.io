@@ -11,7 +11,7 @@
   align-self: center;
   justify-content: center;
   outline-style: solid;
-  padding-bottom: 56.25%;
+  aspect-ratio: 16/9;
   margin: auto;
 }
 .row{
