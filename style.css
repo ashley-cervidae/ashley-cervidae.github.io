@@ -4,17 +4,18 @@
     align-self: center;
     justify-content: center;
     outline-style: solid;
-    max-width: 70%;
+    max-width: 90%;
   }
 .thumbnail-container {
   display: flex;
   align-self: center;
   justify-content: center;
   outline-style: solid;
-  padding: calc(270/ 480 * 100%);
+  padding-bottom: 56.25%;
   margin: auto;
 }
 .row{
+  margin-bottom: 56.25%;
  padding-bottom: 56.25%;
 }
 .description {
