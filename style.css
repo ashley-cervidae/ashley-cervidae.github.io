@@ -10,7 +10,6 @@
   align-self: center;
   justify-content: center;
   outline-style: solid;
-  padding: calc(270/ 480 * 100%);
   margin: auto;
 }
 .row{
