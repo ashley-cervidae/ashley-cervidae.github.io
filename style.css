@@ -10,12 +10,10 @@
   align-self: center;
   justify-content: center;
   outline-style: solid;
+  padding: calc(270/ 480 * 100%);
   margin: auto;
 }
 .row{
-  display: flex;
-  align-self: center;
-  justify-content: center;
  margin: 10% 25% 10%;
 }
 .description {
