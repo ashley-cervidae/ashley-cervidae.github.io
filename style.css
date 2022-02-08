@@ -14,7 +14,7 @@
   margin: auto;
 }
 .row{
-  padding-top: calc(270/ 480 * 100%);
+ margin: 10% 25% 10%;
 }
 .description {
     display: flex;
