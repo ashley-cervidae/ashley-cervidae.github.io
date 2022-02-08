@@ -15,8 +15,8 @@
   margin: auto;
 }
 .row{
-  margin-bottom: 56.25%;
- padding-bottom: 56.25%;
+  margin-bottom: 25%;
+  margin-top: 25%;
 }
 .description {
     display: flex;
