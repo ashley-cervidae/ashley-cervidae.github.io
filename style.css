@@ -1,4 +1,6 @@
 .container {
+  
+  position: relative;
     display: flex;
     background-color: Plum;
     align-self: center;
@@ -7,6 +9,8 @@
     max-width: 90%;
   }
 .thumbnail-container {
+  
+  position: relative;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -15,6 +19,8 @@
   margin: auto;
 }
 .row{
+  
+  position: relative;
   margin-bottom: 25%;
   margin-top: 25%;
 }
@@ -28,6 +34,8 @@
     margin-right: 15%;
 }
  .column {
+   
+    position: relative;
     display: flex;
     align-items: center;
     background-color: Plum;
@@ -56,6 +64,7 @@
   }
 
 .content {
+   position: relative;
     display: flex;
     align-self: center;
     justify-content: center;
