@@ -80,6 +80,8 @@
   }
 
   .footer{
+    background-color: DarkSlateGrey;
+    color:floralwhite;
     margin-left: 15%;
     margin-right: 15%;
     flex-grow: 1;
