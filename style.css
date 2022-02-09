@@ -1,55 +1,3 @@
-.container {
-  
-  position: relative;
-    display: flex;
-    background-color: Plum;
-    align-self: center;
-    justify-content: center;
-    outline-style: solid;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 45%;
-    padding-bottom: 45%;
-  }
-.thumbnail-container {
-  
-  position: relative;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  outline-style: solid;
-  aspect-ratio: 16/9;
-  margin: auto;
-}
-.row{
-  
-  position: relative;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 45%;
-  padding-bottom: 45%;
-}
-.description {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    outline-style: dotted;
-    background-color: White;
-    margin-left: 15%;
-    margin-right: 15%;
-}
- .column {
-   
-    position: relative;
-    display: flex;
-    align-items: center;
-    background-color: Plum;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 45%;
-    padding-bottom: 45%;
-  }
-
 .header {
     display: flex;
     align-self: center;
@@ -70,6 +18,20 @@
     margin-right: 15%;
   }
 
+  .description {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    outline-style: dotted;
+    background-color: White;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .body{
+    display:flex;
+  }
+  
 .content {
    position: relative;
     display: flex;
@@ -83,10 +45,6 @@
     padding-bottom: 40%;
   }
 
-  .h4{
-    padding: 50%;
-  }
-
   .footer{
     background-color: DarkSlateGrey;
     color:floralwhite;
@@ -96,6 +54,4 @@
     padding-bottom: 1%;
     flex-grow: 7;
   }
-  .body{
-    display:flex;
-  }
+ 
