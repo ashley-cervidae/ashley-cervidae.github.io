@@ -6,8 +6,9 @@
     align-self: center;
     justify-content: center;
     outline-style: solid;
-    max-width: 90%;
-    padding-bottom: 40%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 95%;
   }
 .thumbnail-container {
   
@@ -42,6 +43,8 @@
     background-color: Plum;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
 .header {
