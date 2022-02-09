@@ -6,9 +6,10 @@
     align-self: center;
     justify-content: center;
     outline-style: solid;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 95%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 45%;
+    padding-bottom: 45%;
   }
 .thumbnail-container {
   
@@ -23,8 +24,10 @@
 .row{
   
   position: relative;
-  margin-bottom: 25%;
-  margin-top: 25%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 45%;
+  padding-bottom: 45%;
 }
 .description {
     display: flex;
@@ -41,10 +44,10 @@
     display: flex;
     align-items: center;
     background-color: Plum;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 45%;
+    padding-bottom: 45%;
   }
 
 .header {
