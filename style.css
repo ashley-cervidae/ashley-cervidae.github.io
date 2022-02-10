@@ -21,17 +21,20 @@
     margin-left: 15%;
     margin-right: 15%;
   }
-
-  a:link, a:visited {
+  a.nav{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  a.nav:link, a.nav:visited {
     background-color: LightSlateGray;
     color: white;
-    
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
 
-  a:hover, a:active {
+  a.nav:hover, a.nav:active {
     background-color: SlateGray;
   }
 
