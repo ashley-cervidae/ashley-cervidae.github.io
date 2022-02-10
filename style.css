@@ -43,22 +43,23 @@
     justify-content: center;
     outline-style: dotted;
     background-color: White;
+    margin-top:5%;
     margin-left: 15%;
     margin-right: 15%;
     min-height: 60%;
-    padding-bottom: 40%;
+
   }
 
 .container-home{
   display: grid;
   grid-template-columns:10fr 10fr;
   grid-template-rows:10fr 10fr;
+  gap:5%;
 }
 
  .thumbnail-home{
    border: solid;
    aspect-ratio: 16/9;
-   margin:5% 15% 15% 5%;
    width: 50%;
   height: 50%;
  }
