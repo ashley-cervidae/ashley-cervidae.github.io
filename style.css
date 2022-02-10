@@ -45,14 +45,15 @@ a.thumbs{
   text-align: center;
 }
 
-a.thumbs .overlay .text{
+a.thumbs .text{
 font-size: 80px;
-
+visibility: hidden;
 }
-a.thumbs:hover, a.thumbs:active{
+
+a.thumbs:hover .overlay, a.thumbs:active .overlay{
   filter: blur(2px);
 }
-a.thumbs:hover .overlay, a.thumbs:hover .overlay .text, a.thumbs:active .overlay, a.thumbs:active .overlay .text{
+a.thumbs:hover .text, a.thumbs:active .text{
   visibility: visible;
   opacity: 1;
   filter: blur(0px);
