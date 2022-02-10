@@ -55,6 +55,7 @@ a.thumbs:hover, a.thumbs:active{
 a.thumbs .overlay:hover, a.thumbs .overlay .text:hover, a.thumbs .overlay:active, a.thumbs .overlay .text:active{
   visibility: visible;
   opacity: 1;
+  filter: blur(0px);
 }
 
   a.nav:link, a.nav:visited {
