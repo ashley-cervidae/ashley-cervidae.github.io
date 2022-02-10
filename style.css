@@ -55,6 +55,7 @@
   grid-template-columns:10fr 10fr;
   grid-template-rows:10fr 10fr;
   gap:1%;
+  margin: 1% 1% 1% 1%;
 }
 
  .thumbnail-home{
