@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .header {
     display: flex;
     align-self: center;
@@ -31,7 +35,7 @@
   .body{
     display:flex;
   }
-  
+
 .content {
    position: relative;
     display: flex;
@@ -44,6 +48,15 @@
     min-height: 60%;
     padding-bottom: 40%;
   }
+
+.container-home{
+  display: grid;
+  grid-template-columns:2;
+}
+ .thumbnail-container{
+   border: solid;
+ }
+
 
   .footer{
     background-color: DarkSlateGrey;
