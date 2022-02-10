@@ -22,6 +22,19 @@
     margin-right: 15%;
   }
 
+  a:link, a:visited {
+    background-color: LightSlateGray;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: SlateGray;
+  }
+
   .description {
     display: flex;
     align-self: center;
@@ -43,7 +56,7 @@
     justify-content: center;
     outline-style: dotted;
     background-color: White;
-    margin-top:5%;
+
     margin-left: 15%;
     margin-right: 15%;
     min-height: 60%;
