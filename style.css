@@ -49,7 +49,7 @@ font-size: 80px;
 visibility: hidden;
 }
 
-.thumbnail-home:hover image, .thumbnail-home:active image {
+.thumbnail-home image:hover , .thumbnail-home image:active {
   filter: blur(6px);
 }
 a.thumbs:hover .text, a.thumbs:active .text{
