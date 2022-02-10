@@ -33,6 +33,18 @@
     padding-bottom: 2.5%;
   }
 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
 a.thumbs{
   display: inline-flex;
   align-self: center;
@@ -41,10 +53,15 @@ a.thumbs{
   text-align: center;
 }
 
-a.thumbs .text{
+a.thumbs.text{
 visibility: hidden;
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
 }
-a.thumbs:hover, a.thumbs:active{
+a.thumbs:hover, a.thumbs:active a.thumbs.text:hover{
   filter: blur(4px);
   visibility: visible;
 }
