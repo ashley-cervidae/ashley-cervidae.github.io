@@ -47,11 +47,8 @@ a.thumbs{
 }
 
 a.thumbs .overlay .text{
-visibility: hidden;
-font-size: 800px;
-position: absolute;
-top: 50%;
-left: 50%;
+font-size: 80px;
+
 }
 a.thumbs:hover, a.thumbs:active{
   filter: blur(4px);
