@@ -35,8 +35,6 @@
 
 a.thumbs  .overlay {
     position: absolute;
-    height: 100%;
-    width: 100%;
     opacity: 0;
     transition: .5s ease;
   }
@@ -45,13 +43,12 @@ a.thumbs{
   display: inline-flex;
   align-self: center;
   justify-content: center;
-  line-height:50%;
   text-align: center;
 }
 
 a.thumbs .overlay .text{
 visibility: hidden;
-font-size: 20px;
+font-size: 800px;
 position: absolute;
 top: 50%;
 left: 50%;
