@@ -32,6 +32,23 @@
     padding-top: 2.5%;
     padding-bottom: 2.5%;
   }
+
+a.thumbs{
+  display: inline-flex;
+  align-self: center;
+  justify-content: center;
+  line-height:50%;
+  text-align: center;
+}
+
+a.thumbs .text{
+visibility: hidden;
+}
+a.thumbs:hover, a.thumbs:active{
+  filter: blur(4px);
+  visibility: visible;
+}
+
   a.nav:link, a.nav:visited {
     background-color: LightSlateGray;
     color: white;
@@ -90,8 +107,7 @@
     color:floralwhite;
     margin-left: 15%;
     margin-right: 15%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    flex-grow: 7;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
   }
  
