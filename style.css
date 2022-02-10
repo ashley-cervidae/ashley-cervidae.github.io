@@ -33,7 +33,13 @@
     padding-bottom: 2.5%;
   }
 
-
+a.thumbs  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
 
 a.thumbs{
   display: inline-flex;
@@ -43,17 +49,19 @@ a.thumbs{
   text-align: center;
 }
 
-a.thumbs.text{
+a.thumbs .overlay .text{
 visibility: hidden;
-color: white;
 font-size: 20px;
 position: absolute;
 top: 50%;
 left: 50%;
 }
-a.thumbs:hover, a.thumbs:active a.thumbs.text:hover{
+a.thumbs:hover, a.thumbs:active{
   filter: blur(4px);
+}
+a.thumbs .overlay, a.thumbs .overlay .text:hover{
   visibility: visible;
+  opacity: 1;
 }
 
   a.nav:link, a.nav:visited {
