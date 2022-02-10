@@ -51,7 +51,7 @@
 
 .container-home{
   display: grid;
-  grid-template-columns:2;
+  grid-template-columns:1fr 1fr;
 }
  .thumbnail-container{
    border: solid;
