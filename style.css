@@ -25,6 +25,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
+    width:33%;
   }
   a.nav:link, a.nav:visited {
     background-color: LightSlateGray;
