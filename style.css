@@ -39,8 +39,8 @@ a.thumbs  .overlay {
   }
 
 a.thumbs{
-  display: inline-grid;
-  align-items: center;
+  display: inline-flex;
+  align-self: center;
   justify-content: center;
   text-align: center;
 }
@@ -50,8 +50,8 @@ font-size: 80px;
 visibility: hidden;
 }
 
-a.thumbs:hover .overlay, a.thumbs:active .overlay{
-  opacity: 0.2;
+.thumbnail-home:hover, .thumbnail-home:active {
+  filter: blur(6px);
 }
 a.thumbs:hover .text, a.thumbs:active .text{
   visibility: visible;
@@ -107,7 +107,7 @@ a.thumbs:hover .text, a.thumbs:active .text{
  .thumbnail-home{
    border: solid;
    aspect-ratio: 16/9;
-   display: inline-grid;
+
  }
 
 
