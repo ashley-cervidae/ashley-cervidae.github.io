@@ -52,7 +52,7 @@ font-size: 80px;
 a.thumbs:hover, a.thumbs:active{
   filter: blur(2px);
 }
-a.thumbs .overlay:hover, a.thumbs .overlay .text:hover, a.thumbs .overlay:active, a.thumbs .overlay .text:active{
+a.thumbs:hover .overlay, a.thumbs:hover .overlay .text, a.thumbs:active .overlay, a.thumbs:active .overlay .text{
   visibility: visible;
   opacity: 1;
   filter: blur(0px);
