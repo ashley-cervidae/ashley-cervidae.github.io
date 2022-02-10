@@ -39,8 +39,8 @@ a.thumbs  .overlay {
   }
 
 a.thumbs{
-  display: inline-flex;
-  align-self: center;
+  display: inline-grid;
+  align-items: center;
   justify-content: center;
   text-align: center;
 }
@@ -51,12 +51,11 @@ visibility: hidden;
 }
 
 a.thumbs:hover .overlay, a.thumbs:active .overlay{
-  filter: blur(2px);
+  opacity: 0.2;
 }
 a.thumbs:hover .text, a.thumbs:active .text{
   visibility: visible;
   opacity: 1;
-  filter: blur(0px);
 }
 
   a.nav:link, a.nav:visited {
@@ -108,7 +107,7 @@ a.thumbs:hover .text, a.thumbs:active .text{
  .thumbnail-home{
    border: solid;
    aspect-ratio: 16/9;
-
+   display: inline-grid;
  }
 
 
