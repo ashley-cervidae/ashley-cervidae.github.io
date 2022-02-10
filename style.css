@@ -54,14 +54,13 @@
   display: grid;
   grid-template-columns:10fr 10fr;
   grid-template-rows:10fr 10fr;
-  gap:5%;
+  gap:1%;
 }
 
  .thumbnail-home{
    border: solid;
    aspect-ratio: 16/9;
-   width: 50%;
-  height: 50%;
+
  }
 
 
