@@ -52,7 +52,10 @@
 .container-home{
   display: grid;
   grid-template-columns:1fr 1fr;
+  column-gap: 5%;
+  row-gap: 5%;
 }
+
  .thumbnail-container{
    border: solid;
  }
