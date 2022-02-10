@@ -14,12 +14,13 @@
 
 .nav-bar {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
     outline-style: dotted;
     background-color: Gainsboro;
     margin-left: 15%;
     margin-right: 15%;
+    text-align: center;
   }
   a.nav{
     display: inline-flex;
@@ -27,13 +28,12 @@
     justify-content: center;
     width:calc(100%/3);
     line-height:50%;
+    text-align: center;
   }
   a.nav:link, a.nav:visited {
     background-color: LightSlateGray;
     color: white;
-    text-align: center;
     text-decoration: none;
-    display: inline-flex;
   }
 
   a.nav:hover, a.nav:active {
