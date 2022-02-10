@@ -58,6 +58,7 @@
 
  .thumbnail-container{
    border: solid;
+   aspect-ratio: 16/9;
  }
 
 
