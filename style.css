@@ -55,7 +55,6 @@ color: white;
 }
 .overlay:hover .text, .overlay:active .text{
   visibility: visible;
-  opacity: 1;
 }
 
   a.nav:link, a.nav:visited {
