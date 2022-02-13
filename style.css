@@ -89,10 +89,6 @@
   height: 100%;
   width: 100%;
   display: inline-flex;
-  border: solid;
-  border-width: thin;
-  border-color: #d6d6d6;
-    
   background-image: url(placeholder.jpg);
   z-index: 1;
   position: relative;
@@ -109,9 +105,9 @@
   position: absolute;
   visibility: hidden;
   top: 50%;
-  margin-top: -0.5em;
+  left: 50%; 
   z-index: 2;  
-  font-size: large;
+  font-size: xx-large;
 }
 
 .thumbnail-home:hover .image {
