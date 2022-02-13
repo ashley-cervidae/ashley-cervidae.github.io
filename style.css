@@ -41,7 +41,6 @@
     width: 50%;
     height: 50%;
     text-align: center;
-    z-index: 4;
   }
 
 a.thumbs{
@@ -55,10 +54,12 @@ a.thumbs{
 font-size: 80px;
 visibility: hidden;
 color: white;
+z-index: 5;
 }
 
 a.thumbs:hover , a.thumbs:active {
   filter: blur(6px);
+  z-index: 4;
 }
 .overlay:hover .text, .overlay:active .text{
   visibility: visible;
