@@ -33,38 +33,6 @@
     padding-bottom: 2.5%;
   }
 
-.overlay {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-  }
-
-a.thumbs{
-  display: inline-flex;
-  align-self: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.overlay .text{
-font-size: 80px;
-visibility: hidden;
-color: white;
-z-index: 5;
-}
-
-a.thumbs:hover , a.thumbs:active {
-  filter: blur(6px);
-  z-index: 4;
-}
-.overlay:hover .text, .overlay:active .text{
-  visibility: visible;
-}
-
   a.nav:link, a.nav:visited {
     background-color: LightSlateGray;
     color: white;
@@ -114,9 +82,48 @@ a.thumbs:hover , a.thumbs:active {
  .thumbnail-home{
    border: solid;
    aspect-ratio: 16/9;
+   position: relative;
+}
 
- }
+.image {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  border: solid;
+  border-width: thin;
+  border-color: #d6d6d6;
+    
+  background-image: url(placeholder.jpg);
+  z-index: 1;
+  position: relative;
+}
 
+.thumbnail-home {
+  border: solid;
+  aspect-ratio: 16/9;
+  position: relative;
+}
+
+.thumbnail-home a {
+  text-align: center;
+  position: absolute;
+  visibility: hidden;
+  top: 50%;
+  margin-top: -0.5em;
+  width: 262px;
+  z-index: 2;  
+}
+
+.thumbnail-home:hover .image {
+filter: blur(6px);
+}
+
+.thumbnail-home:hover a {
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+filter: blur(0px);
+  visibility: visible;
+}
 
   .footer{
     background-color: DarkSlateGrey;
