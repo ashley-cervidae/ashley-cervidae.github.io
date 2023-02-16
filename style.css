@@ -62,7 +62,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    outline-style: dotted;
+   /* outline-style: dotted;*/
     background-color: White;
 
     margin-left: 15%;
