@@ -6,7 +6,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    outline-style: dotted;
+   /* outline-style: dotted;*/
     background-color: White;
     margin-left: 15%;
     margin-right: 15%;
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    outline-style: dotted;
+   /* outline-style: dotted;*/
     background-color: Gainsboro;
     margin-left: 15%;
     margin-right: 15%;
@@ -47,7 +47,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    outline-style: dotted;
+  /*  outline-style: dotted;*/
     background-color: White;
     margin-left: 15%;
     margin-right: 15%;
@@ -67,7 +67,7 @@
 
     margin-left: 15%;
     margin-right: 15%;
-    min-height: 60%;
+    min-height: 20%;
 
   }
 
