@@ -37,14 +37,14 @@
     font-size: xx-large;
   }
   
-  .thumbnail-home:hover .image {
+  /* .thumbnail-home:hover .image {
   filter: blur(6px);
-  }
+  }*/
   
-  .thumbnail-home:hover a {
+  /*.thumbnail-home:hover a {
     color: #ffffff;
     text-shadow: 1px 1px #000000;
     filter: blur(0px);
     visibility: visible;
-  }
+  } */
   
