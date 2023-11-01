@@ -50,7 +50,7 @@ grid-rows: num// num means numbering of rows in that column, consider using this
     }
 
     .nav-bar {
-      grid-column: 1 /span 4;
+      grid-column: 1 /span 3;
       grid-row: 2;
       font-size: 112.5%;
       display: grid;
@@ -67,14 +67,10 @@ grid-rows: num// num means numbering of rows in that column, consider using this
       grid-row: 1;
       text-align:center;
     }
-    .work{
-        grid-column:3;
-        grid-row: 1;
-        text-align:center;
-      }
+
 
     .contact{
-        grid-column: 4;
+        grid-column: 3;
         grid-row: 1;
         text-align:center;
     }
