@@ -1,8 +1,8 @@
 .container-home{
     display: grid;
-    grid-template-columns:10fr 10fr;
-    grid-template-rows:10fr 10fr;
-    gap:1%;
+    grid-template-columns:auto minmax(auto, 10fr);
+    grid-template-rows: auto minmax(auto, 10fr);
+    gap:2%;
     margin: 1% 1% 1% 1%;
   }
   
@@ -15,7 +15,7 @@
   .image {
     height: 100%;
     width: 100%;
-    display: inline-flex;
+    display: absolute;
     background-image: url(placeholder.jpg);
     z-index: 1;
     position: relative;
@@ -25,16 +25,43 @@
     border: solid;
     aspect-ratio: 16/9;
     position: relative;
+    overflow: hidden;
   }
-  
-  .thumbnail-home a {
-    text-align: center;
+  .container-desc-box{
+    color:black;  
+    border-color:black;
+    border: solid;
+    background-color: azure;
+    margin:0.25em;
+    padding:0.75em;
+    text-align: centre;
     position: absolute;
-    top: 50%;
-    left: 50%; 
+    top: 85%;
+    left: 67.5%; 
+
     z-index: 2;  
-    font-size: xx-large;
+    overflow: hidden;
+    white-space:nowrap;
+  
   }
+ /* .thumbnail-home a,  .thumbnail-home a:visited {
+    color:black;
+    
+    border-color:black;
+    border: solid;
+    background-color: azure;
+    margin:0.25em;
+    padding:1em;
+    text-align: centre;
+    position: absolute;
+    top: 85%;
+    left: 67.5%; 
+
+    z-index: 2;  
+    overflow: hidden;
+    white-space:nowrap;
+  
+  }*/
   
   /* .thumbnail-home:hover .image {
   filter: blur(6px);
